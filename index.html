@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist UI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minimalist UI Components</h1>
+
+        <div class="tabs-container">
+            <div class="tabs">
+                <div class="tab active" data-tab="1">Profile</div>
+                <div class="tab" data-tab="2">Settings</div>
+                <div class="tab" data-tab="3">Notifications</div>
+            </div>
+            <div class="tab-content-container">
+                <div class="tab-content active" data-tab-content="1">
+                    <h2>Profile Details</h2>
+                    <p>This is the profile tab. It contains user information, preferences, and account details. The content fades in gently for a smooth user experience.</p>
+                </div>
+                <div class="tab-content" data-tab-content="2">
+                    <h2>Application Settings</h2>
+                    <p>This is the settings tab. Users can configure application-wide settings, such as theme, language, and notification preferences here.</p>
+                </div>
+                <div class="tab-content" data-tab-content="3">
+                    <h2>Recent Notifications</h2>
+                    <p>This is the notifications tab, where users can view recent alerts, messages, and updates related to their account or activity.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>What is the return policy?</span>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Our return policy allows for returns within 30 days of purchase. The item must be in its original condition with all tags and packaging intact. Please visit our returns page for more detailed instructions.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>How do I track my order?</span>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Once your order has shipped, you will receive an email with a tracking number and a link to the carrier's website. You can use this information to track the status of your delivery.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Can I change my shipping address?</span>
+                        <span class="icon">+</span>
+                    </div>
+                    <div class="accordion-content">
+                        <p>If your order has not yet been shipped, you can contact our customer support team to request a change of address. Please have your order number ready when you call.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
